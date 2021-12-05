@@ -563,4 +563,19 @@ entries:
     urls:
     - https://github.com/diederikverscheure/2021-2022-mlops-helm-demo/releases/download/fastapi-example-1.0.0/fastapi-example-1.0.0.tgz
     version: 1.0.0
+  my-fastapi:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2021-12-05T21:23:54.84505389Z"
+    description: A Helm chart for Kubernetes that will deploy a FastAPI
+    digest: da9307bfdd30a25d278babb3d8f1617917421eeb13df5f1dda93ddd17905da82
+    maintainers:
+    - email: diederik.verscheure@student.howest.be
+      name: Diederik Verscheure
+    name: my-fastapi
+    sources:
+    - https://github.com/diederikverscheure/
+    urls:
+    - https://github.com/diederikverscheure/2021-2022-mlops-helm-demo/releases/download/my-fastapi-2.0.0/my-fastapi-2.0.0.tgz
+    version: 2.0.0
 generated: "2019-12-08T02:57:21.985425597Z"
