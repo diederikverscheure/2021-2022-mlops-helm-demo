@@ -5,13 +5,13 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/nathansegers/fastapi-intro
-  tag: v1.0.0
+  repository: ghcr.io/diederikverscheure/fastapi-intro
+  tag: v2.0.0
   pullPolicy: IfNotPresent
 
-imagePullSecrets: []
-nameOverride: ""
-fullnameOverride: ""
+imagePullSecrets: "gcr-verscheure-diederik"
+nameOverride: "verscheure-diederik-fastapi"
+fullnameOverride: "verscheure-diederik-fastapi-full"
 
 service:
   type: ClusterIP
@@ -37,7 +37,8 @@ resources: {}
   #   cpu: 100m
   #   memory: 128Mi
 
-nodeSelector: {}
+nodeSelector: 
+  kubernetes.io/hostname: segers-nathan
 
 tolerations: []
 
